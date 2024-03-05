@@ -1,13 +1,13 @@
 module github.com/ipfs-force-community/api-compare
 
-go 1.19
+go 1.20
 
 require (
 	github.com/filecoin-project/go-address v1.1.0
 	github.com/filecoin-project/go-jsonrpc v0.3.1
-	github.com/filecoin-project/go-state-types v0.12.5
+	github.com/filecoin-project/go-state-types v0.13.0-rc.2
 	github.com/filecoin-project/lotus v1.22.2
-	github.com/filecoin-project/venus v1.14.0-rc3
+	github.com/filecoin-project/venus v1.14.1-0.20240305025357-6d3dc95e77b9
 	github.com/ipfs/go-cid v0.4.1
 	github.com/stretchr/testify v1.8.4
 	github.com/urfave/cli/v2 v2.25.5
@@ -70,7 +70,7 @@ require (
 	github.com/hannahhoward/cbor-gen-for v0.0.0-20230214144701-5d17c9d5243c // indirect
 	github.com/hannahhoward/go-pubsub v0.0.0-20200423002714-8d62886cc36e // indirect
 	github.com/hashicorp/golang-lru v0.6.0 // indirect
-	github.com/hashicorp/golang-lru/v2 v2.0.2 // indirect
+	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/icza/backscanner v0.0.0-20210726202459-ac2ffc679f94 // indirect
 	github.com/ipfs/bbloom v0.0.4 // indirect
 	github.com/ipfs/boxo v0.10.1 // indirect
@@ -98,23 +98,23 @@ require (
 	github.com/jbenet/goprocess v0.1.4 // indirect
 	github.com/jessevdk/go-flags v1.4.0 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
-	github.com/klauspost/compress v1.16.6 // indirect
-	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
+	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.6 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
 	github.com/libp2p/go-flow-metrics v0.1.0 // indirect
-	github.com/libp2p/go-libp2p v0.27.9 // indirect
+	github.com/libp2p/go-libp2p v0.31.1 // indirect
 	github.com/libp2p/go-libp2p-pubsub v0.9.3 // indirect
 	github.com/libp2p/go-msgio v0.3.0 // indirect
 	github.com/magefile/mage v1.11.0 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
-	github.com/miekg/dns v1.1.54 // indirect
+	github.com/miekg/dns v1.1.55 // indirect
 	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1 // indirect
 	github.com/minio/sha256-simd v1.0.1 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/multiformats/go-base32 v0.1.0 // indirect
 	github.com/multiformats/go-base36 v0.2.0 // indirect
-	github.com/multiformats/go-multiaddr v0.9.0 // indirect
+	github.com/multiformats/go-multiaddr v0.12.2 // indirect
 	github.com/multiformats/go-multiaddr-dns v0.3.1 // indirect
 	github.com/multiformats/go-multibase v0.2.0 // indirect
 	github.com/multiformats/go-multicodec v0.9.0 // indirect
@@ -131,14 +131,14 @@ require (
 	github.com/rs/cors v1.7.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible // indirect
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.2
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.5 // indirect
 	github.com/tklauser/numcpus v0.2.2 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.1.0 // indirect
 	github.com/whyrusleeping/bencher v0.0.0-20190829221104-bb6607aa8bba // indirect
-	github.com/whyrusleeping/cbor-gen v0.0.0-20230923211252-36a87e1ba72f // indirect
+	github.com/whyrusleeping/cbor-gen v0.1.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/otel v1.16.0 // indirect
@@ -146,14 +146,14 @@ require (
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/crypto v0.14.0 // indirect
-	golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc // indirect
-	golang.org/x/mod v0.10.0 // indirect
+	go.uber.org/zap v1.25.0 // indirect
+	golang.org/x/crypto v0.18.0 // indirect
+	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63 // indirect
+	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/sync v0.3.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/tools v0.9.1 // indirect
+	golang.org/x/sys v0.16.0 // indirect
+	golang.org/x/tools v0.12.1-0.20230815132531-74c255bcf846 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
@@ -163,5 +163,5 @@ require (
 replace (
 	github.com/ethereum/go-ethereum => github.com/simlecode/go-ethereum v0.0.0-20230817064327-61ce41e5548c
 	github.com/filecoin-project/go-jsonrpc => github.com/ipfs-force-community/go-jsonrpc v0.1.8
-	github.com/filecoin-project/lotus => github.com/ipfs-force-community/lotus v0.8.1-0.20231102061412-c036d87a5067
+	github.com/filecoin-project/lotus => github.com/ipfs-force-community/lotus v0.8.1-0.20240305025722-f9e71e4c515f
 )

@@ -37,6 +37,8 @@ const (
 	minerGetBaseInfo                    = "MinerGetBaseInfo"
 	stateGetRandomnessDigestFromTickets = "StateGetRandomnessDigestFromTickets"
 	stateGetRandomnessDigestFromBeacon  = "StateGetRandomnessDigestFromBeacon"
+	stateGetAllAllocations              = "StateGetAllAllocations"
+	stateGetAllClaims                   = "StateGetAllClaims"
 
 	// state
 	stateReadState    = "StateReadState"
