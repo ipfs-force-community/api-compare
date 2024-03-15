@@ -161,8 +161,8 @@ github.com/filecoin-project/specs-actors/v6 v6.0.2 h1:K1xPRJoW5PBvb08QF9+4w1Ajcn
 github.com/filecoin-project/specs-actors/v6 v6.0.2/go.mod h1:wnfVvPnYmzPZilNvSqCSSA/ZQX3rdV/U/Vf9EIoQhrI=
 github.com/filecoin-project/specs-actors/v7 v7.0.1 h1:w72xCxijK7xs1qzmJiw+WYJaVt2EPHN8oiwpA1Ay3/4=
 github.com/filecoin-project/specs-actors/v7 v7.0.1/go.mod h1:tPLEYXoXhcpyLh69Ccq91SOuLXsPWjHiY27CzawjUEk=
-github.com/filecoin-project/venus v1.14.1-0.20240305025357-6d3dc95e77b9 h1:vakV/SWrHgXNeWqp+elvhk8VOrx8ZIa2Xc5tj9YfmQc=
-github.com/filecoin-project/venus v1.14.1-0.20240305025357-6d3dc95e77b9/go.mod h1:GbklysfXj03YPyVY0RP7qLnXW0F0aDkDzexL2XHk3Z0=
+github.com/filecoin-project/venus v1.15.0-rc1 h1:XgJjci6IzuW5BbMqjfYhhz6OAO7/rE99BvbtnL6owbA=
+github.com/filecoin-project/venus v1.15.0-rc1/go.mod h1:eGfNmxdPAFIdmMS6v9HqfTLrneI51N5KX/EtoY4dzJ4=
 github.com/flynn/noise v1.0.0 h1:DlTHqmzmvcEiKj+4RYo/imoswx/4r6iBlCMfVtrMXpQ=
 github.com/francoispqt/gojay v1.2.13 h1:d2m3sFjloqoIUQU3TsHBgj6qg/BVGlTBeHDUmyJnXKk=
 github.com/frankban/quicktest v1.14.4 h1:g2rn0vABPOOXmZUj+vbmUp0lPoXEMuhTpIluN0XL9UY=
@@ -258,8 +258,8 @@ github.com/icza/mighty v0.0.0-20180919140131-cfd07d671de6/go.mod h1:xQig96I1VNBD
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
 github.com/ipfs-force-community/go-jsonrpc v0.1.8 h1:w7CWlLveL+aXD3gLg8Z7I1RcktCiMY0sp8dgJG37uWE=
 github.com/ipfs-force-community/go-jsonrpc v0.1.8/go.mod h1:jBSvPTl8V1N7gSTuCR4bis8wnQnIjHbRPpROol6iQKM=
-github.com/ipfs-force-community/lotus v0.8.1-0.20240305025722-f9e71e4c515f h1:+6d6+Fet+uHA0AuqVxAD1JcYnNUC7rMnWgktjKlg5W0=
-github.com/ipfs-force-community/lotus v0.8.1-0.20240305025722-f9e71e4c515f/go.mod h1:A+2ItLEkifc/87SgiAZ8qf4j0e2DSk0Ub+rmMOAeCDY=
+github.com/ipfs-force-community/lotus v0.8.1-0.20240311023706-83e32171e2dc h1:YT40PjZjUtwOa5WQ89cH0SUU6reZ5e4BbqutkfjheAM=
+github.com/ipfs-force-community/lotus v0.8.1-0.20240311023706-83e32171e2dc/go.mod h1:Sz160s4d0lJyrE0mO8S5bUw11w0gSyP09H1sY6wCmOY=
 github.com/ipfs/bbloom v0.0.1/go.mod h1:oqo8CVWsJFMOZqTglBG4wydCE4IQA/G2/SEofB0rjUI=
 github.com/ipfs/bbloom v0.0.4 h1:Gi+8EGJ2y5qiD5FbsbpX/TMNcJw8gSqr7eyjHa4Fhvs=
 github.com/ipfs/bbloom v0.0.4/go.mod h1:cS9YprKXpoZ9lT0n/Mw/a6/aFV6DTjTLYHeA+gyqMG0=

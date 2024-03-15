@@ -6,8 +6,8 @@ require (
 	github.com/filecoin-project/go-address v1.1.0
 	github.com/filecoin-project/go-jsonrpc v0.3.1
 	github.com/filecoin-project/go-state-types v0.13.0-rc.2
-	github.com/filecoin-project/lotus v1.22.2
-	github.com/filecoin-project/venus v1.14.1-0.20240305025357-6d3dc95e77b9
+	github.com/filecoin-project/lotus v1.26.0-rc3
+	github.com/filecoin-project/venus v1.15.0-rc1
 	github.com/ipfs/go-cid v0.4.1
 	github.com/stretchr/testify v1.8.4
 	github.com/urfave/cli/v2 v2.25.5
@@ -163,5 +163,5 @@ require (
 replace (
 	github.com/ethereum/go-ethereum => github.com/simlecode/go-ethereum v0.0.0-20230817064327-61ce41e5548c
 	github.com/filecoin-project/go-jsonrpc => github.com/ipfs-force-community/go-jsonrpc v0.1.8
-	github.com/filecoin-project/lotus => github.com/ipfs-force-community/lotus v0.8.1-0.20240305025722-f9e71e4c515f
+	github.com/filecoin-project/lotus => github.com/ipfs-force-community/lotus v0.8.1-0.20240311023706-83e32171e2dc
 )
