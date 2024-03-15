@@ -4,24 +4,24 @@ import "github.com/urfave/cli/v2"
 
 var LotusURLFlag = &cli.StringFlag{
 	Name:  "lotus-url",
-	Value: "/ip4/127.0.0.1/tcp/1234",
+	Value: "/ip4/192.168.25.124/tcp/1234",
 	Usage: "lotus url",
 }
 var LotusTokenFlag = &cli.StringFlag{
 	Name:  "lotus-token",
-	Value: "",
+	Value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwZXJtIjoiYWRtaW4iLCJleHQiOiIifQ.YHIIXispL9G-foNaK2PLvvqzuNPVrgRBPuLpGXymbZ0",
 	Usage: "lotus token",
 }
 
 // https://api.node.glif.io
 var VenusURLFlag = &cli.StringFlag{
 	Name:  "venus-url",
-	Value: "/ip4/127.0.0.1/tcp/3453",
+	Value: "/ip4/192.168.25.124/tcp/3453",
 	Usage: "venus url",
 }
 var VenusTokenFlag = &cli.StringFlag{
 	Name:  "venus-token",
-	Value: "",
+	Value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW4iLCJwZXJtIjoiYWRtaW4iLCJleHQiOiIifQ.YHIIXispL9G-foNaK2PLvvqzuNPVrgRBPuLpGXymbZ0",
 	Usage: "venus token",
 }
 

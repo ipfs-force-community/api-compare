@@ -425,6 +425,18 @@ func (ac *apiCompare) CompareStateGetRandomnessDigestFromBeacon() error {
 	return ac.sendAndWait(stateGetRandomnessDigestFromBeacon, toInterface(ac.ctx, randEpoch, key))
 }
 
+func (ac *apiCompare) CompareStateGetAllAllocations() error {
+	key := ac.dp.currentTS.Key()
+
+	return ac.sendAndWait(stateGetAllAllocations, toInterface(ac.ctx, key))
+}
+
+func (ac *apiCompare) CompareStateGetAllClaims() error {
+	key := ac.dp.currentTS.Key()
+
+	return ac.sendAndWait(stateGetAllClaims, toInterface(ac.ctx, key))
+}
+
 //// eth ////
 
 func (ac *apiCompare) CompareEthAccounts() error {
