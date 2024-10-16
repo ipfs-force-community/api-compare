@@ -48,7 +48,7 @@ func TestLogsBloomMarshal(t *testing.T) {
 		LogsBloom: types.EmptyEthBloom[:],
 	}
 	lReceipt := &api.EthTxReceipt{
-		LogsBloom: ethtypes.EmptyEthBloom[:],
+		LogsBloom: ethtypes.NewEmptyEthBloom()[:],
 	}
 
 	d, err := json.Marshal(vReceipt)
