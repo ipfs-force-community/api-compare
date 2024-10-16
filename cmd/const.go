@@ -6,7 +6,7 @@ import (
 	"github.com/filecoin-project/venus/venus-shared/types"
 )
 
-const latestNetworkVersion = network.Version17
+const latestNetworkVersion = network.Version24
 
 const (
 	stateAccountKey                     = "StateAccountKey"
